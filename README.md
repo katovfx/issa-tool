@@ -1,4 +1,7 @@
-<img width="307" height="207" alt="inverted_mus_ai" src="https://github.com/user-attachments/assets/f5e4c542-7a7c-4eb0-80d8-bbb0246d9837" />
+<img width="741" height="748" alt="image" src="https://github.com/user-attachments/assets/77199bc8-e60f-46fd-9332-d9be6b1e7c65" />
+<img width="558" height="491" alt="image" src="https://github.com/user-attachments/assets/44889d3e-048f-4dc1-b17c-9d15a682eebd" />
+
+
 
 
 # issa tool
