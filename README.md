@@ -3,9 +3,6 @@
 A simple Windows app for saving video and audio from SoundCloud, YouTube, X (Twitter), TikTok and
 Instagram. Paste a link, pick a format, press download.
 
-Built with Python and Tkinter, on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) (downloading)
-and [FFmpeg](https://ffmpeg.org) (merging and converting).
-
 ## Features
 
 - **Video**: MP4, MKV, MOV, WebM or AVI, from 480p up to 8K, at the original frame rate or a fixed
@@ -56,22 +53,11 @@ and copyright law where you live.
 
 Requires Windows 10/11 and Python 3.14.
 
-```bat
-pip install -r requirements.txt
-python scdl_app.py
-```
-
-`python dev.py` runs the app with live reload: it restarts whenever a `.py` file is saved.
-
 ## Build the setup
 
 ```bat
 build_setup.bat
 ```
-
-This builds the app with PyInstaller (`dist\issa tool\`), then packs it into a single installer,
-`dist\issa tool setup.exe`. The version number comes from `APP_VERSION` in `scdl_app.py`. To publish
-an update, raise it, build, and attach the new setup to a new release here.
 
 ### About antivirus false alarms
 
@@ -84,12 +70,9 @@ compile it; without it the build still works, just with the stock launcher.
 
 | File | What it is |
 | --- | --- |
-| `scdl_app.py` | the app |
-| `setup_app.py` | the installer, uninstaller and updater |
-| `build_setup.py` / `build_setup.bat` | builds the app and the installer |
-| `dev.py` / `run.bat` | run with live reload / run normally |
-| `logo.png`, `app.ico`, `fonts/` | logo, icon and the app's font |
-| `bootloader/` | how to build the app's own PyInstaller launcher |
+| `issa tool.exe` | the app |
+| `issa tool setup.exe` | the installer, uninstaller and updater |
+
 
 # Running the app
 yt-dlp[default]>=2026.8.19
@@ -100,4 +83,6 @@ Pillow>=12.3.0
 # Building the installer (pinned: the project's own launcher in bootloader\ matches this version)
 pyinstaller==6.22.3 
 
+
+issa x- https://x.com/issa_ngas
 
