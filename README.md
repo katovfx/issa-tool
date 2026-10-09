@@ -1,13 +1,17 @@
-<img width="241" height="228" alt="image" src="https://github.com/user-attachments/assets/44889d3e-048f-4dc1-b17c-9d15a682eebd" />
-<img width="358" height="341" alt="image" src="https://github.com/user-attachments/assets/77199bc8-e60f-46fd-9332-d9be6b1e7c65" />
+
+
+<img width="341" height="328" alt="image" src="https://github.com/user-attachments/assets/79c4e72c-bf71-4629-8601-b5a91fc96125" />
 
 
 
 
-# issa tool
 
-A simple Windows app for saving video and audio from SoundCloud, YouTube, X (Twitter), TikTok and
-Instagram. Paste a link, pick a format, press download.
+
+
+
+# ISSA TOOL
+
+A simple tool for video editors (WILL ADD MORE)
 
 ## Features
 
@@ -17,13 +21,33 @@ Instagram. Paste a link, pick a format, press download.
 - A preview of what's downloading, with a progress bar
 - **Downloads** panel listing everything you've saved, with redownload and "show in folder"
 - Desktop notification when a download finishes (can be turned off)
+- Drag a link onto the window to download it; downloads can be paused or cancelled
 - Themes: Midnight, Sakura, Light, Ocean, Drank and Forest
 - One-tap updates from this repo's releases
+
+### Other tools
+
+- **Recording tool**: record any window (even behind others) with the sound your PC plays, at
+  10–120 fps or a custom rate up to 240. Export as H.264 or H.265 (graphics card), AV1, VP9, ProRes,
+  DNxHR, lossless FFV1 / UT Video, or a Windows codec installed on your PC (e.g. Lagarith, HuffYUV).
+  Slow codecs record losslessly first and convert after you stop, so nothing is dropped.
+- **Depth**: a depth map version of a recording, or a live depth viewer, from AI (Depth Anything V2,                         
+<img width="341" height="328" alt="image" src="https://github.com/user-attachments/assets/ab7382a7-cae4-4446-ac6d-de18ad0a1f0f" />
+
+
+  on the graphics card) or straight from a game set up in ReShade Changer. Depth level slider.
+- **ReShade Changer**: sets ReShade up inside a single-player game for you (any version from 4.9.1
+  to the latest; IW4x picks one that works with it), with issa tool's add-on that sends the game's
+  real depth to the recording tool without changing what's on screen, plus the most used effects.
+- **ProRec**: drag clips in to convert them to Xvid, ProRes, PNG or TGA, with pause and stop.
 
 ## Install
 
 1. Download `issa.tool.setup.exe` from the [latest release](../../releases/latest).
 2. Run it, choose where to install (any drive or folder), and pick your shortcuts.
+
+<img width="341" height="328" alt="image" src="https://github.com/user-attachments/assets/135694e2-176a-4a96-a690-a184e1108d4a" />
+
 
 No admin rights are needed: it installs for your Windows user only. The app needs about 220 MB.
 
@@ -41,54 +65,10 @@ Use **Windows Settings → Apps → issa tool → Uninstall**, or run `uninstall
 folder. It removes only the app's own files. Your downloaded songs and videos are never touched,
 and your settings are kept unless you tick "also delete my settings and download history".
 
-## Where your things are kept
-
-| What | Where |
-| --- | --- |
-| The app | the folder you chose when installing |
-| Settings, download history | `%APPDATA%\issa tool` |
-| Your downloads | the save folder set in **Settings → General** (default: `Music\SoundCloud`) |
-
-## Use it responsibly
-
-Only download content you have the right to download, such as your own uploads, content that is
-free to download, or content whose owner has given permission. Respect each site's terms of service
-and copyright law where you live.
-
-## Run from source
-
-Requires Windows 10/11 and Python 3.14.
-
-## Build the setup
-
-```bat
-build_setup.bat
-```
-
-### About antivirus false alarms
-
-Python apps packaged with PyInstaller share PyInstaller's prebuilt launcher with some malware, so a
-few antivirus engines flag the launcher itself. This project builds with its own launcher compiled
-from PyInstaller's source instead. See [bootloader/README.txt](bootloader/README.txt) for how to
-compile it; without it the build still works, just with the stock launcher.
 
 ## Project files
 
 | File | What it is |
 | --- | --- |
-| `issa tool.exe` | the app |
-| `issa tool setup.exe` | the installer, uninstaller and updater |
-
-
-# Running the app
-yt-dlp[default]>=2026.8.19
-imageio-ffmpeg>=0.6.0
-deno>=2.9.7
-Pillow>=12.3.0
-
-# Building the installer (pinned: the project's own launcher in bootloader\ matches this version)
-pyinstaller==6.22.3 
-
-
-issa x- https://x.com/issa_ngas
-
+issa tool.exe	the app
+issa tool setup.exe	the installer, uninstaller and updater
