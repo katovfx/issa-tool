@@ -1,3 +1,6 @@
+<img width="1617" height="1188" alt="inverted_mus_ai" src="https://github.com/user-attachments/assets/f5e4c542-7a7c-4eb0-80d8-bbb0246d9837" />
+
+
 # issa tool
 
 A simple Windows app for saving video and audio from SoundCloud, YouTube, X (Twitter), TikTok and
