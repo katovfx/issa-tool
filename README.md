@@ -1,6 +1,7 @@
 
 
-<img width="341" height="328" alt="image" src="https://github.com/user-attachments/assets/79c4e72c-bf71-4629-8601-b5a91fc96125" />
+
+
 
 
 
@@ -10,10 +11,16 @@
 
 
 # ISSA TOOL
-
-A simple tool for video editors (WILL ADD MORE)
+tool for editors 
 
 ## Features
+- COD LAUNCHER ALONG WITH CODMVM ADDED
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/74cf5ea2-c03f-4323-9506-af0d2490b0ae" />
+
+
+
+
+
 
 - **Video**: MP4, MKV, MOV, WebM or AVI, from 480p up to 8K, at the original frame rate or a fixed
   one (8–60 fps, or any custom rate from 1 to 240)
@@ -22,8 +29,14 @@ A simple tool for video editors (WILL ADD MORE)
 - **Downloads** panel listing everything you've saved, with redownload and "show in folder"
 - Desktop notification when a download finishes (can be turned off)
 - Drag a link onto the window to download it; downloads can be paused or cancelled
-- Themes: Midnight, Sakura, Light, Ocean, Drank and Forest
 - One-tap updates from this repo's releases
+- choose custom game location in settings/   issa tool saves game location for all tools
+  
+   ## NEW 
+- Themes: Midnight, Sakura, Light, Ocean, Drank and Forest / Custom Ui themes along with copy and paste friends theme code
+<img width="341" height="328" alt="image" src="https://github.com/user-attachments/assets/f57fa660-2af8-42d7-9044-bcbc6197d9c8" />
+
+
 
 ### Other tools
 
@@ -32,7 +45,8 @@ A simple tool for video editors (WILL ADD MORE)
   DNxHR, lossless FFV1 / UT Video, or a Windows codec installed on your PC (e.g. Lagarith, HuffYUV).
   Slow codecs record losslessly first and convert after you stop, so nothing is dropped.
 - **Depth**: a depth map version of a recording, or a live depth viewer, from AI (Depth Anything V2,                         
-<img width="341" height="328" alt="image" src="https://github.com/user-attachments/assets/ab7382a7-cae4-4446-ac6d-de18ad0a1f0f" />
+<img width="341" height="328" alt="image" src="https://github.com/user-attachments/assets/54e70321-5251-4783-aa05-45fbe8c43f53" /> 
+
 
 
   on the graphics card) or straight from a game set up in ReShade Changer. Depth level slider.
@@ -46,7 +60,8 @@ A simple tool for video editors (WILL ADD MORE)
 1. Download `issa.tool.setup.exe` from the [latest release](../../releases/latest).
 2. Run it, choose where to install (any drive or folder), and pick your shortcuts.
 
-<img width="341" height="328" alt="image" src="https://github.com/user-attachments/assets/135694e2-176a-4a96-a690-a184e1108d4a" />
+<img width="341" height="328" alt="image" src="https://github.com/user-attachments/assets/fb770a14-08fd-493d-962b-aab6dc9e7578" />
+
 
 
 No admin rights are needed: it installs for your Windows user only. The app needs about 220 MB.
